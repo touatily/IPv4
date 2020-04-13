@@ -4,6 +4,6 @@
 
 using namespace std;
 int main(){
-	ipv4 ip;
+	IPv4 ip;
 	cout << ip << endl;
 }
