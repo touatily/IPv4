@@ -9,6 +9,6 @@ WORKDIR /root
 RUN git clone git@github.com:touatily/IPv4.git
 
 WORKDIR IPv4
-RUN cp ipv4.h /usr/local/include/
+RUN cp ipv4 /usr/local/include/
 RUN make lib
 RUN cp libipv4.a /usr/local/lib/
